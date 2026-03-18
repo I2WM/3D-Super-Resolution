@@ -275,6 +275,5 @@ gaussian-splatting-submit/
 │   ├── eval_track_proxy_depth.py
 │   └── ...
 ├── README.md
-├── README_EN.md
 └── NTIRE2026_3DSR_WORKLOG.md
 ```
