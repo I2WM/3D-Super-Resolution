@@ -1,8 +1,18 @@
-# gaussian-splatting-submit
+# NTIRE 2026 3D Content Super-Resolution Challenge Solutions
 
-Our solution consists of a **2D super-resolution front-end** and a **3DGS reconstruction back-end**.
-For the front-end models used in both tracks, please refer to [Trident](https://github.com/I2WM/Trident) for model code and pretrained checkpoints.
-This repository mainly contains the 3DGS reconstruction back-end, including the training pipeline, competition-format rendering/export, and bundle-based reproduction of the final submissions.
+This repository contains the **3D reconstruction back-end** of our solution to the **NTIRE 2026 3D Content Super-Resolution Challenge**, covering:
+
+- **Track 1:** Bicubic Degradation
+- **Track 2:** Realistic Degradation
+
+This repository focuses on the **3D reconstruction pipeline**, including training, competition-format rendering/export, and bundle-based reproduction of the final submissions.  
+For the **2D front-end** part, please refer to our 2D repository:  
+[Trident](https://github.com/I2WM/Trident)
+
+## Challenge Website
+
+- [Codabench Competition Track 1](https://www.codabench.org/competitions/12891/)
+- [Codabench Competition Track 2](https://www.codabench.org/competitions/12894/)
 
 ## Overview
 
@@ -265,5 +275,6 @@ gaussian-splatting-submit/
 │   ├── eval_track_proxy_depth.py
 │   └── ...
 ├── README.md
+├── README_EN.md
 └── NTIRE2026_3DSR_WORKLOG.md
 ```
